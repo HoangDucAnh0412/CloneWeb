@@ -1,0 +1,95 @@
+.shop .category {
+  padding: 30px;
+  height: 90vh;
+}
+.chead h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.shop .box2 {
+  margin-top: 100px !important;
+  text-align: center;
+}
+
+.shop .product img {
+  width: 100%;
+  height: 100%;
+}
+.shop .product {
+  transition: 0.5s;
+}
+.shop .product:hover {
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
+
+/* ------------ product details------------ */
+
+.product-details-3-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+.product-details-3{
+  margin-bottom: 360px;
+  margin-left: 100px;
+}
+.box-3 {
+  display: flex;
+  align-items: center;
+  margin-top: 135px;
+  margin-bottom: 135px;
+}
+
+.product-3 {
+  border: none;
+  padding: 20px;
+}
+.img-3 {
+ 
+  border: 1px solid #ccc;
+}
+.img-3 img {
+  width: 450px;
+  height: auto;
+}
+.product-details-3 h3 {
+  font-size: 24px;
+
+}
+.rate {
+  margin-top: 10px;
+}
+.rate i {
+  color: #ffd700;
+}
+.price {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.price h4 {
+  margin-right: 10px;
+}
+
+.small-images-3 {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép ảnh nhỏ xuống dòng khi không đủ không gian */
+  justify-content: flex-start; /* Đẩy tất cả ảnh nhỏ sang bên trái */
+  margin-top: 20px;
+
+}
+
+.small-images-3 img {
+  width: 105px;
+  height: auto;
+  margin-right: 10px; /* Đẩy ảnh nhỏ cách nhau một khoảng */
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.small-images-3 img:last-child {
+  margin-right: 0; /* Không áp dụng margin-right cho ảnh nhỏ cuối cùng */
+}
